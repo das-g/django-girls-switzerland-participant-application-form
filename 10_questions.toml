@@ -1,0 +1,109 @@
+[defaults]
+is_required = true
+
+[[questions]]
+title = "Wie heisst du? / What is your name?"
+question_type = "paragraph"
+
+[[questions]]
+title = "Was ist deine E-mail Adresse? / What is your e-mail address?"
+question_type = "email"
+
+[[questions]]
+title = "Wie lautet deine Telefonnummer? / What's your phone number?"
+help_text = "Mit Ländervorwahl / With country prefix"
+question_type = "paragraph"
+
+[[questions]]
+title = "Wo wohnst du? / Where do you live?"
+help_text = "Ort & Land / City & Country"
+question_type = "paragraph"
+
+[[questions]]
+title = "Wie alt bist du? / How old are you?"
+question_type = "paragraph"
+is_required = false
+
+[[questions]]
+title = "Mit welchem Betriebssystem arbeitest du? / Which operating system do you work with?"
+question_type = "choices"
+choices = "Mac OS X / macOS; Windows; Linux; Ein anderes / a different one"
+is_multiple_choice = true
+
+[[questions]]
+title = "Wieviel Programmiererfahrung hast du schon? / How much programming experience do you have?"
+question_type = "choices"
+choices = "Ich bin Anfängerin und weiss noch gar nichts übers Programmieren / I am a complete beginner; Ich habe ein bisschen mit HTML und CSS experimentiert / I have experimented with HTML and CSS; Ich habe schon ein bisschen JavaScript geschrieben / I have already written some JavaScript; Ich kann ein wenig Python programmieren / I know Python a little; Ich habe schon eine Webseite erstellt / I have already created a website; Ich arbeite als Programmiererin / I work as a developer"
+is_multiple_choice = true
+
+[[questions]]
+title = "Wenn du oben etwas anderes angekreuzt hast als 'Ich bin Anfängerin ...', erzähl uns bitte ein wenig mehr über deine bisherige Erfahrung im Programmieren. / If you chose something other than complete beginner above, please tell us about your programming experience."
+question_type = "text"
+is_required = false
+
+[[questions]]
+title = "Was ist deine aktuelle Beschäftigung? / What is your current occupation?"
+help_text = "Arbeitest du? Bist du eine Studentin? / Do you work? Are you a student?"
+question_type = "text"
+
+[[questions]]
+title = "Warum möchtest du an dem Workshop teilnehmen? / Why do you want to participate in the workshop?"
+help_text = "Erzähle uns ein bisschen über deine Motivation und deine Ideen wie du deine neuen Fähigkeiten einsetzen würdest. / Please tell us a little bit about your motivation and your ideas how you would use your newly learned skills."
+question_type = "text"
+
+[[questions]]
+title = "Wie planst du deine neuen Fähigkeiten mit anderen zu teilen oder weiterzugeben? / How do you plan to share your new skills with others?"
+help_text = "Django Girls basiert auf Freiwilligenarbeit und wir freuen uns, wenn auch die Teilnehmerinnen unserer Workshops ihr Wissen weitergeben und noch mehr Frauen fürs Programmieren begeistern. Es gibt ganz verschiedene Möglichkeiten dies zu tun, du könntest beispielsweise einen Django Girls Workshop in deiner Stadt organisieren (Ja das kannst du! Wir würden dich auch unterstützen 😊), an lokalen Meetups einen Vortrag über Django Girls halten, einen Blog schreiben, deinen Freundinnen Programmieren beibringen... oder etwas ganz anderes machen? Erzähl uns von deinen Ideen. 😊  / Django Girls is a volunteer-run organisation and we look for people who are active and can help us to bring more women into the field. We want you to share what you learn at the workshop with others in different ways: by organising a Django Girls event in your city, talking about Django Girls on your local meetups, writing a blog or simply teaching your friends. Tell us about your ideas! 😊"
+question_type = "text"
+
+[[questions]]
+title = "Wo hast du das erste Mal von Django Girls gehört? / Where did you hear about Django Girls for the first time?"
+question_type = "choices"
+choices = "Facebook; Twitter; Von einer Freundin/einem Freund / From a friend; An der Uni / At university; Flyer/Poster; Anderes / Other"
+is_required = false
+is_multiple_choice = true
+
+[[questions]]
+title = "Ich nehme zur Kenntnis, dass einige meiner Daten über Websites und Services von Drittparteien genutzt werden. / I acknowledge that some of my data will be used over websites and services of third parties."
+help_text = "Die Daten die wir durch dieses Formular speichern werden ausschliesslich zum Zweck von Django Girls verwendet. Wir benutzen aber Webseiten und Services von Drittparteien für die Organisation, beispielsweise MailChimp für das Versenden von Mails. / The data which we collect through this form will only be used for Django Girls. However, we use websites and services of third parties for the organization, such as MailChimp to send mails."
+question_type = "choices"
+choices = "Ja / Yes"
+is_required = true
+is_multiple_choice = true
+
+[[questions]]
+title = "Es ist uns wichtig, dass alle Teilnehmer sich an den <a href='/pages/coc/'>Django Girls Code of Conduct</a> halten. / It is important that the participants adhere to the <a href='/pages/coc/'>Django Girls Code of Conduct</a>."
+question_type = "choices"
+choices = "Ich habe den Django Girls Code of Conduct gelesen, verstanden und werde mich daran halten. / I have read and understood the Django Girls Code of Conduct and will adhere to it."
+is_required = true
+is_multiple_choice = true
+
+[[questions]]
+title = "Wie gut sprichst du und verstehst du Deutsch? / How well do you speak and understand German?"
+question_type = "choices"
+choices = """Fliessend / Fluent; 
+Ich fühle mich wohl mich auf Deutsch zu verständigen / I feel comfortable communicating in German;
+Ich kann Deutsch verstehen (schriftlich und mündlich), aber ich spreche kein Deutsch / I can understand German (oral and written), but cannot speak it; Ich verstehe überhaupt nichts / I do not understand anything"""
+is_required = true
+is_multiple_choice = false
+
+[[questions]]
+title = "Wie gut sprichst du und verstehst du Englisch? / How well do you speak and understand English?"
+question_type = "choices"
+choices = """Fliessend / Fluent; 
+Ich fühle mich wohl mich auf Englisch zu verständigen / I feel comfortable communicating in English;
+Ich kann Englisch verstehen (schriftlich und mündlich), aber ich spreche kein Englisch / I can understand English (oral and written), but cannot speak it; Ich verstehe überhaupt nichts / I do not understand anything"""
+is_required = true
+is_multiple_choice = false
+
+[[questions]]
+title = "In welcher Sprache wirst du lieber gecoacht? / What language would you prefer to be coached in?"
+question_type = "choices"
+choices = "Deutsch / German; Englisch / English; Keine Präferenz / No preference"
+is_required = true
+is_multiple_choice = false
+
+[[questions]]
+title = "Möchtest du uns noch etwas anderer mitteilen? Hast du zum Beispiel spezielle Bedürfnisse ans Essen (vegetarisch, vegan, Allergien oder Intoleranzen)? / Is there anything else you would like us to know? Do you have any dietary requirements we should be aware of (vegetarian, vegan, allergies)?"
+question_type = "text"
+is_required = false
