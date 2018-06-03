@@ -96,16 +96,16 @@ title = """
 Warum möchtest du an dem Workshop teilnehmen? /
 Why do you want to participate in the workshop?"""
 help_text = """
-Erzähle uns ein bisschen über deine Motivation und deine Ideen wie du deine neuen Fähigkeiten einsetzen würdest. /
-Please tell us a little bit about your motivation and your ideas how you would use your newly learned skills."""
+Erzähle uns ein bisschen über deine Motivation und deine Ideen, wie du deine neuen Fähigkeiten einsetzen würdest. /
+Please tell us a little bit about your motivation and your ideas on how you would use your newly learned skills."""
 question_type = "text"
 
 [[questions]]
 title = """
-Wie planst du deine neuen Fähigkeiten mit anderen zu teilen oder anderen weiterzugeben? /
-How are you planning to share what you'll learn with others?"""
+Wie planst du, deine neuen Fähigkeiten mit anderen zu teilen oder anderen weiterzugeben? /
+How are you planning to share with others what you'll learn?"""
 help_text = """
-Django Girls basiert auf Freiwilligenarbeit und wir freuen uns, wenn auch die Teilnehmerinnen unserer Workshops ihr Wissen weitergeben und noch mehr Frauen fürs Programmieren begeistern. Es gibt ganz verschiedene Möglichkeiten dies zu tun, du könntest beispielsweise einen Django Girls Workshop in deiner Stadt organisieren (Ja das kannst du! Wir würden dich auch unterstützen 😊), an lokalen Meetups einen Vortrag über Django Girls halten, einen Blog schreiben, deinen Freundinnen Programmieren beibringen... oder etwas ganz anderes machen? Erzähl uns von deinen Ideen. 😊 /
+Django Girls basiert auf Freiwilligenarbeit und wir freuen uns, wenn auch die Teilnehmerinnen unserer Workshops ihr Wissen weitergeben und noch mehr Frauen fürs Programmieren begeistern. Es gibt ganz verschiedene Möglichkeiten, dies zu tun. Du könntest beispielsweise einen Django Girls-Workshop in deiner Stadt organisieren (Ja das kannst du! Wir würden dich auch unterstützen 😊), an lokalen Meetups einen Vortrag über Django Girls halten, einen Blog schreiben, deinen Freundinnen Programmieren beibringen &hellip; oder etwas ganz anderes machen? Erzähl uns von deinen Ideen. 😊 /
 Django Girls is a volunteer-run organisation and we look for people who are active and can help us to bring more women into the field. We want you to share what you learn at the workshop with others in different ways: by organising a Django Girls event in your city, talking about Django Girls on your local meetups, writing a blog or simply teaching your friends. Tell us about your ideas! 😊"""
 question_type = "text"
 
@@ -139,7 +139,7 @@ title = """
 Ich nehme zur Kenntnis, dass einige meiner Daten über Websites und Services von Drittparteien genutzt werden. /
 I acknowledge that some of my data will be used on Third Party Sites and Service."""
 help_text = """
-Die Daten, die wir durch dieses Formular erheben, werden ausschliesslich zum Zweck von Django Girls verwendet. Wir benutzen dafür aber Webseiten und Services von Drittparteien, beispielsweise Mandrill für das Versenden von Mails. Keine Sorge. Wir teilen deine Daten nicht mit Spammern und verkaufen sie nicht! Mehr dazu findest du in <a href='/privacy-cookies/'>unserer Datenschutzrichtlinie</a>. /
+Die Daten, die wir durch dieses Formular erheben, werden ausschliesslich zum Zweck von Django Girls verwendet. Wir benutzen dafür aber Webseiten und Services von Drittparteien, beispielsweise Mandrill für das Versenden von Mails. Keine Sorge: Wir teilen deine Daten nicht mit Spammern und verkaufen sie nicht! Mehr dazu findest du in <a href='/privacy-cookies/'>unserer Datenschutzrichtlinie</a>. /
 Data collected through this form is used only for the purpose of Django Girls events. However, we're using Third Party Sites and Services to make it happen: for example, we're using Mandrill to send you emails. Don't worry: We don't share your data with spammers, and we don't sell it! More info on our Privacy policy <a href='/privacy-cookies/'>here</a>."""
 question_type = "choices"
 choices = """
@@ -167,8 +167,9 @@ choices = """
 Fliessend /
 Fluent;
 
-Ich fühle mich wohl mich auf Deutsch zu verständigen /
+Ich kann mich gut auf Deutsch zu verständigen /
 I feel comfortable communicating in German;
+
 Ich kann Deutsch verstehen (schriftlich und mündlich), aber ich spreche kein Deutsch /
 I can understand German (oral and written), but cannot speak it;
 
@@ -186,7 +187,7 @@ choices = """
 Fliessend /
 Fluent;
 
-Ich fühle mich wohl mich auf Englisch zu verständigen /
+Ich kann mich gut auf Englisch zu verständigen /
 I feel comfortable communicating in English;
 
 Ich kann Englisch verstehen (schriftlich und mündlich), aber ich spreche kein Englisch /
@@ -212,6 +213,6 @@ is_multiple_choice = false
 [[questions]]
 title = """
 Möchtest du uns noch etwas anderer mitteilen? Hast du zum Beispiel spezielle Bedürfnisse ans Essen (vegetarisch, vegan, Allergien oder Intoleranzen)? /
-Is there anything else you would like us to know? Do you have any dietary requirements we should be aware of (vegetarian, vegan, allergies)?"""
+Is there anything else you would like us to know? E.g., do you have any dietary requirements we should be aware of (vegetarian, vegan, allergies)?"""
 question_type = "text"
 is_required = false
