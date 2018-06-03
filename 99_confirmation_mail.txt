@@ -2,7 +2,9 @@
 
 Hallo 😊
 
-Der erste Schritt ist geschafft. Deine Bewerbung als Teilnehmerin des Django Girls Zürich Workshops am 14. und 15. Oktober 2017 ist bei uns angekommen. Gratuliere!! 🎉
+Der erste Schritt ist geschafft. Deine Bewerbung als Teilnehmerin des <a href="http://djangogirls.org/zurich">Django Girls Zurich</a> Workshops am 14. und 15. Oktober 2017 ist bei uns angekommen. Gratuliere!! 🎉
+
+Bitte beachte, dass das noch keine Bestätigung ist, dass du Teilnehmen kannst, sondern nur, dass wir deine Bewerbung erhalten haben.
 
 Nach Beendigung des Bewerbungsprozesses (am 31. August) werden wir dir so schnell wie möglich mitteilen, ob du definitiv dabei sein wirst. In der Zwischenzeit kannst du uns jederzeit unter zurich@djangogirls.org erreichen.
 
@@ -15,9 +17,12 @@ Deine Django Girls Zürich
 
 Hi 😊
 
-The first step is completed. Your application to participate in the Django Girls Zurich Workshop on 14 and 15 October 2017 has been submitted successfully. Congratulations! 🎉
+This is a confirmation of your application to <a href="http://djangogirls.org/zurich">Django Girls Zurich</a>. Yay! That's a huge step already, we're proud of you! 🎉
 
-After the application deadline (31 August), we will let you know as soon as possible if you succeeded in securing a spot. In the meantime, you can contact us anytime under zurich@djangogirls.org. For your information, your answers to the questions are attached below.
+Mind that this is not a confirmation of participation in the event, but a confirmation that we received your application.
 
-Cheers,
+After the application deadline (31 August), we will let you know as soon as possible if you succeeded in securing a spot. In the meantime, you can reach us anytime by answering to this email or by writing to zurich@djangogirls.org.
+For your reference, we're attaching your answers below.
+
+Hugs, cupcakes and high-fives!
 Your Django Girls Zurich Team

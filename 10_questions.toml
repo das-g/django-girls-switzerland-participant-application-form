@@ -4,22 +4,22 @@ is_required = true
 [[questions]]
 title = """
 Wie heisst du? /
-What is your name?"""
+What's your name?"""
 question_type = "paragraph"
 
 [[questions]]
 title = """
-Was ist deine E-mail Adresse? /
-What is your e-mail address?"""
+Deine E-mail Adresse /
+Your e-mail address:"""
 question_type = "email"
 
 [[questions]]
 title = """
-Wie lautet deine Telefonnummer? /
-What's your phone number?"""
+Deine Telefonnummer /
+Your phone number:"""
 help_text = """
 Mit Ländervorwahl /
-With country prefix"""
+Include your country prefix"""
 question_type = "paragraph"
 
 [[questions]]
@@ -40,11 +40,11 @@ is_required = false
 
 [[questions]]
 title = """
-Mit welchem Betriebssystem arbeitest du? /
-Which operating system do you work with?"""
+Welches Betriebssystem verwendest du? /
+Which operating system do you use?"""
 question_type = "choices"
 choices = """
-Mac OS X / macOS;
+Mac OS X;
 Windows;
 Linux;
 Ein anderes / a different one"""
@@ -53,26 +53,26 @@ is_multiple_choice = false
 [[questions]]
 title = """
 Wieviel Programmiererfahrung hast du schon? /
-How much programming experience do you have?"""
+What is your current level of experience with programming?"""
 question_type = "choices"
 choices = """
 Ich bin Anfängerin und weiss noch gar nichts übers Programmieren /
-I am a complete beginner;
+I'm a total beginner, I don't know anything about it;
 
 Ich habe ein bisschen mit HTML und CSS experimentiert /
-I have experimented with HTML and CSS;
+I've tried some HTML or CSS before;
 
 Ich habe schon ein bisschen JavaScript geschrieben /
-I have already written some JavaScript;
+I've tried some JavaScript before;
 
 Ich kann ein wenig Python programmieren /
 I know Python a little;
 
 Ich habe schon eine Webseite erstellt /
-I have already created a website;
+I've built a website before;
 
-Ich arbeite als Programmiererin /
-I work as a developer"""
+Ich arbeite als Programmiererin bzw. Software-Entwicklerin /
+I work as a programmer or software developer"""
 is_multiple_choice = true
 
 [[questions]]
@@ -102,8 +102,8 @@ question_type = "text"
 
 [[questions]]
 title = """
-Wie planst du deine neuen Fähigkeiten mit anderen zu teilen oder weiterzugeben? /
-How do you plan to share your new skills with others?"""
+Wie planst du deine neuen Fähigkeiten mit anderen zu teilen oder anderen weiterzugeben? /
+How are you planning to share what you'll learn with others?"""
 help_text = """
 Django Girls basiert auf Freiwilligenarbeit und wir freuen uns, wenn auch die Teilnehmerinnen unserer Workshops ihr Wissen weitergeben und noch mehr Frauen fürs Programmieren begeistern. Es gibt ganz verschiedene Möglichkeiten dies zu tun, du könntest beispielsweise einen Django Girls Workshop in deiner Stadt organisieren (Ja das kannst du! Wir würden dich auch unterstützen 😊), an lokalen Meetups einen Vortrag über Django Girls halten, einen Blog schreiben, deinen Freundinnen Programmieren beibringen... oder etwas ganz anderes machen? Erzähl uns von deinen Ideen. 😊 /
 Django Girls is a volunteer-run organisation and we look for people who are active and can help us to bring more women into the field. We want you to share what you learn at the workshop with others in different ways: by organising a Django Girls event in your city, talking about Django Girls on your local meetups, writing a blog or simply teaching your friends. Tell us about your ideas! 😊"""
@@ -111,8 +111,8 @@ question_type = "text"
 
 [[questions]]
 title = """
-Wo hast du das erste Mal von Django Girls gehört? /
-Where did you hear about Django Girls for the first time?"""
+Wo hast du das erste Mal von Django Girls erfahren? /
+How did you first hear about Django Girls?"""
 question_type = "choices"
 choices = """
 Facebook;
@@ -127,6 +127,8 @@ At university;
 
 Flyer/Poster;
 
+PyLadies;
+
 Anderes /
 Other"""
 is_required = false
@@ -135,10 +137,10 @@ is_multiple_choice = true
 [[questions]]
 title = """
 Ich nehme zur Kenntnis, dass einige meiner Daten über Websites und Services von Drittparteien genutzt werden. /
-I acknowledge that some of my data will be used over websites and services of third parties."""
+I acknowledge that some of my data will be used on Third Party Sites and Service."""
 help_text = """
-Die Daten die wir durch dieses Formular speichern werden ausschliesslich zum Zweck von Django Girls verwendet. Wir benutzen aber Webseiten und Services von Drittparteien für die Organisation, beispielsweise MailChimp für das Versenden von Mails. /
-The data which we collect through this form will only be used for Django Girls. However, we use websites and services of third parties for the organization, such as MailChimp to send mails."""
+Die Daten, die wir durch dieses Formular erheben, werden ausschliesslich zum Zweck von Django Girls verwendet. Wir benutzen dafür aber Webseiten und Services von Drittparteien, beispielsweise Mandrill für das Versenden von Mails. Keine Sorge. Wir teilen deine Daten nicht mit Spammern und verkaufen sie nicht! Mehr dazu findest du in <a href='/privacy-cookies/'>unserer Datenschutzrichtlinie</a>. /
+Data collected through this form is used only for the purpose of Django Girls events. However, we're using Third Party Sites and Services to make it happen: for example, we're using Mandrill to send you emails. Don't worry: We don't share your data with spammers, and we don't sell it! More info on our Privacy policy <a href='/privacy-cookies/'>here</a>."""
 question_type = "choices"
 choices = """
 Ja / Yes"""
@@ -147,8 +149,8 @@ is_multiple_choice = true
 
 [[questions]]
 title = """
-Es ist uns wichtig, dass alle Teilnehmer sich an den <a href='/pages/coc/'>Django Girls Code of Conduct</a> halten. /
-It is important that the participants adhere to the <a href='/pages/coc/'>Django Girls Code of Conduct</a>."""
+Es ist uns wichtig, dass sich alle Beteiligten an den <a href='/coc/'>Django Girls Code of Conduct</a> halten. /
+It is important that all attendees comply with the <a href='/coc/'>Django Girls Code of Conduct</a>"""
 question_type = "choices"
 choices = """
 Ich habe den Django Girls Code of Conduct gelesen, verstanden und werde mich daran halten. /
@@ -162,7 +164,7 @@ Wie gut sprichst du und verstehst du Deutsch? /
 How well do you speak and understand German?"""
 question_type = "choices"
 choices = """
-""""Fliessend /
+Fliessend /
 Fluent;
 
 Ich fühle mich wohl mich auf Deutsch zu verständigen /
@@ -181,7 +183,7 @@ Wie gut sprichst du und verstehst du Englisch? /
 How well do you speak and understand English?"""
 question_type = "choices"
 choices = """
-""""Fliessend /
+Fliessend /
 Fluent;
 
 Ich fühle mich wohl mich auf Englisch zu verständigen /
