@@ -42,6 +42,9 @@ is_required = false
 title = """
 Welches Betriebssystem verwendest du? /
 Which operating system do you use?"""
+help_text = """
+Falls mehrere, welches wirst du am Workshop verwenden? (Denke daran, dass du ein eigenes Laptop mitbringen musst!) /
+If several, which one will you use at the workshop? (Remember that you'll have to bring an own laptop!)"""
 question_type = "choices"
 choices = """
 Mac OS X;
