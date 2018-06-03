@@ -2,11 +2,11 @@
 
 Hallo 😊
 
-Der erste Schritt ist geschafft. Deine Bewerbung als Teilnehmerin des <a href="http://djangogirls.org/zurich">Django Girls Zurich</a> Workshops am 14. und 15. Oktober 2017 ist bei uns angekommen. Gratuliere!! 🎉
+Der erste Schritt ist geschafft. Deine Bewerbung als Teilnehmerin des <a href="http://djangogirls.org/zurich">Django Girls Zurich</a> Workshops am 1. und 2. September 2018 ist bei uns angekommen. Gratuliere!! 🎉
 
 Bitte beachte, dass das noch keine Bestätigung ist, dass du Teilnehmen kannst, sondern nur, dass wir deine Bewerbung erhalten haben.
 
-Nach Beendigung des Bewerbungsprozesses (am 31. August) werden wir dir so schnell wie möglich mitteilen, ob du definitiv dabei sein wirst. In der Zwischenzeit kannst du uns jederzeit unter zurich@djangogirls.org erreichen.
+Nach Beendigung des Bewerbungsprozesses (am 31. Juli) werden wir dir so schnell wie möglich mitteilen, ob du definitiv dabei sein wirst. In der Zwischenzeit kannst du uns jederzeit unter zurich@djangogirls.org erreichen.
 
 Zu deiner Information hängen wir deine Antworten aus dem Formular nochmals unten ans Email an.
 
@@ -17,11 +17,11 @@ Deine Django Girls Zürich
 
 Hi 😊
 
-This is a confirmation of your application to <a href="http://djangogirls.org/zurich">Django Girls Zurich</a>. Yay! That's a huge step already, we're proud of you! 🎉
+This is a confirmation of your application for the <a href="http://djangogirls.org/zurich">Django Girls Zurich</a> Workshop on September 1st and 2nd 2018. Yay! That's a huge step already, we're proud of you! 🎉
 
 Mind that this is not a confirmation of participation in the event, but a confirmation that we received your application.
 
-After the application deadline (31 August), we will let you know as soon as possible if you succeeded in securing a spot. In the meantime, you can reach us anytime by answering to this email or by writing to zurich@djangogirls.org.
+After the application deadline (July 31), we will let you know as soon as possible if you succeeded in securing a spot. In the meantime, you can reach us anytime by answering to this email or by writing to zurich@djangogirls.org.
 For your reference, we're attaching your answers below.
 
 Hugs, cupcakes and high-fives!
