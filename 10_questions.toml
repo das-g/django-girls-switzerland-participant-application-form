@@ -28,7 +28,7 @@ is_required = false
 title = "Mit welchem Betriebssystem arbeitest du? / Which operating system do you work with?"
 question_type = "choices"
 choices = "Mac OS X / macOS; Windows; Linux; Ein anderes / a different one"
-is_multiple_choice = true
+is_multiple_choice = false
 
 [[questions]]
 title = "Wieviel Programmiererfahrung hast du schon? / How much programming experience do you have?"
